@@ -183,6 +183,7 @@ img {
 footer.flex{
 	margin-inline: auto;
 	background-color: var(--bkgrnd-clr-header);
+	opacity: 0.8;
 	padding-bottom: 1rem;
 }
 
