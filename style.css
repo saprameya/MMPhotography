@@ -38,6 +38,7 @@ header {
 
 body > * {
 	width: 96%;
+	margin-inline: auto;
 }
 
 h1{
@@ -63,6 +64,7 @@ h2{
 nav li a, nav li, footer, footer li{
 	color: var(--header-font-clr);
 	list-style: none;
+	
 }
 
 span.contact-link a{
@@ -178,13 +180,14 @@ img {
 }
 
 footer.flex{
-	margin-inline: 0;
+	margin-inline: auto;
 	background-color: var(--bkgrnd-clr-header);
 	padding-bottom: 1rem;
 }
 
 footer > *{
 	padding-inline: clamp(1rem, 2vw, 1.5rem);
+	
 }
 
 .social-media{
