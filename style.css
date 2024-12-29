@@ -175,6 +175,7 @@ img {
 
 #reviews >*{
 	column-gap: 1rem;
+	align-self: start;
 }
 
 footer.flex{
