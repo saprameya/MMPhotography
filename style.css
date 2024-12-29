@@ -51,7 +51,6 @@ h1{
 
 nav .flex{
 	width: clamp(200px, 20vw, 50%);
-	width: 200px;
 	justify-content: space-around;
 	padding: 0;
 }
