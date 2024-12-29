@@ -126,7 +126,7 @@ img {
 	transform: translate(15%, 10%) rotate(-30deg);
 }
 
-#bday-girl-img .img-attr, #bday-girl-img .img-attr a{
+#bday-girl-img .img-attr{
 	position: absolute;
 	top:0;
 	left: 7%;
@@ -140,10 +140,10 @@ img {
 	z-index: 75;
 }
 
-#graduation-img .img-attr, #graduation-img .img-attr a{
+#graduation-img .img-attr{
 	position: absolute;
 	top:0;
-	left: 1rem;
+	left: 5rem;
 	text-align: left;
 	font-size: 10px;
 	color: #fff;
@@ -156,7 +156,7 @@ img {
 	transform: translate(-15%, 10%) rotate(20deg);
 }
 
-#biking-img .img-attr, #biking-img .img-attr a{
+#biking-img .img-attr{
 	position: absolute;
 	top:0;
 	right: 0.5rem;
@@ -181,6 +181,7 @@ img {
 footer.flex{
 	margin-inline: 0;
 	background-color: var(--bkgrnd-clr-header);
+	padding-bottom: 1rem;
 }
 
 footer > *{
@@ -253,6 +254,7 @@ footer > *{
 	#biking-img {
 		transform: translate(0) rotate(-10deg);
 	}
+
 }
 
 @media (min-width: 630px) and (max-width: 940px) {
@@ -266,4 +268,10 @@ footer > *{
 	#biking-img {
 		transform: translate(40%) rotate(-10deg);
 	}
+
+	#graduation-img .img-attr{
+		left: 7.5rem;
+	}
 }
+
+
