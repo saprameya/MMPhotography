@@ -172,7 +172,11 @@ img {
 	display: block;
 	box-sizing: border-box;
 	background-color: var(--bkgrnd-clr-odd);
-	padding: 1vw 8%;
+	padding: 2vw 8%;
+}
+
+#services h2{
+	margin: 0;
 }
 
 #reviews >*{
