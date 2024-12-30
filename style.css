@@ -7,7 +7,7 @@ body {
 	--bkgrnd-clr-header: hsl(0, 0%, 20%);
 	--header-font-clr: hsl(208, 100%, 97%);
 	
-	width: 96%;
+	width: 100%;
 	font-size: clamp(0.7rem, 1vw, 1rem) ;
 
 }
