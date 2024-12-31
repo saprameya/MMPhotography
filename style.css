@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html{
+	color-scheme: dark light;
+}
+
 body {
 	box-sizing: border-box;
 	font-family: 'Roboto', serif;
 	--bkgrnd-clr-odd: hsl(33, 100%, 88%);
 	--bkgrnd-clr-header: hsl(0, 0%, 20%);
 	--header-font-clr: hsl(208, 100%, 97%);
-	
+	--main-font-clr: #000;
 	width: 100%;
 	font-size: clamp(0.7rem, 1vw, 1rem) ;
+	
 
 }
 
@@ -62,7 +67,7 @@ h2{
 
 }
 
-nav li a, nav li, footer, footer li{
+nav li a, nav li, footer, footer *{
 	color: var(--header-font-clr);
 	list-style: none;
 	
@@ -279,6 +284,14 @@ footer > *{
 
 	#graduation-img .img-attr{
 		left: 7.5rem;
+	}
+}
+
+@media (prefers-color-scheme: dark){
+	.secondary-content-wrapper,
+	#services{
+		color: #000;
+		
 	}
 }
 
