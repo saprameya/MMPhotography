@@ -280,10 +280,13 @@ footer > * {
 }
 
 @media (prefers-color-scheme: dark) {
-	span.contact-link a {
+	span.contact-link a,
+	.img-wrapper,
+	.img-wrapper a{
 		color: #fff;
 	}
-
+	
+	#baseball a, 
 	.secondary-content-wrapper *,
 	#services * {
 		color: #000;
