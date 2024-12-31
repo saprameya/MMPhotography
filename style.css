@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-html{
+html {
 	color-scheme: dark light;
 }
 
@@ -12,9 +12,7 @@ body {
 	--header-font-clr: hsl(208, 100%, 97%);
 	--main-font-clr: #000;
 	width: 100%;
-	font-size: clamp(0.7rem, 1vw, 1rem) ;
-	
-
+	font-size: clamp(0.7rem, 1vw, 1rem);
 }
 
 header {
@@ -33,7 +31,7 @@ header {
 	margin-inline: auto;
 }
 
-.flex{
+.flex {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -47,33 +45,33 @@ body > * {
 	margin-inline: auto;
 }
 
-h1{
+h1 {
 	font-family: 'MonteCarlo', serif;
 	color: var(--header-font-clr);
 	min-height: 100%;
 	margin: 0;
 	text-align: center;
-	
 }
 
-nav .flex{
+nav .flex {
 	width: clamp(200px, 20vw, 50%);
 	justify-content: space-around;
 	padding: 0;
 }
 
-h2{
-	font-size: clamp(2rem, 2vw, 3rem) ;
-
+h2 {
+	font-size: clamp(2rem, 2vw, 3rem);
 }
 
-nav li a, nav li, footer, footer *{
+nav li a,
+nav li,
+footer,
+footer * {
 	color: var(--header-font-clr);
 	list-style: none;
-	
 }
 
-span.contact-link a{
+span.contact-link a {
 	color: #000;
 }
 
@@ -90,8 +88,6 @@ img {
 #intro {
 	display: block;
 }
-
-
 
 .img-wrapper {
 	position: relative;
@@ -114,16 +110,16 @@ img {
 }
 
 #multi-pics {
-	
 	overflow: hidden;
 }
 
-#multi-pics p{
+#multi-pics p {
 	position: relative;
 	z-index: 110;
 }
 
-.img-attr, .img-attr a{
+.img-attr,
+.img-attr a {
 	font-size: 0.7rem;
 	color: #000;
 }
@@ -133,9 +129,9 @@ img {
 	transform: translate(15%, 10%) rotate(-30deg);
 }
 
-#bday-girl-img .img-attr{
+#bday-girl-img .img-attr {
 	position: absolute;
-	top:0;
+	top: 0;
 	left: 7%;
 	font-size: 10px;
 	color: #fff;
@@ -147,9 +143,9 @@ img {
 	z-index: 75;
 }
 
-#graduation-img .img-attr{
+#graduation-img .img-attr {
 	position: absolute;
-	top:0;
+	top: 0;
 	left: 5rem;
 	text-align: left;
 	font-size: 10px;
@@ -163,9 +159,9 @@ img {
 	transform: translate(-15%, 10%) rotate(20deg);
 }
 
-#biking-img .img-attr{
+#biking-img .img-attr {
 	position: absolute;
-	top:0;
+	top: 0;
 	right: 0.5rem;
 	text-align: left;
 	font-size: 10px;
@@ -173,90 +169,87 @@ img {
 	background-color: #b8cae2;
 }
 
-#services{
+#services {
 	display: block;
 	box-sizing: border-box;
 	background-color: var(--bkgrnd-clr-odd);
 	padding: 2vw 8%;
 }
 
-#services h2{
+#services h2 {
 	margin: 0;
 }
 
-#reviews >*{
+#reviews > * {
 	column-gap: 1rem;
 	align-self: start;
 }
 
-footer.flex{
+footer.flex {
 	margin-inline: auto;
 	background-color: var(--bkgrnd-clr-header);
 	opacity: 0.8;
 	padding-bottom: 1rem;
 }
 
-footer > *{
+footer > * {
 	padding-inline: clamp(1rem, 2vw, 1.5rem);
-	
 }
 
-.social-media{
+.social-media {
 	padding-top: clamp(1rem, 2vw, 1.5rem);
 	padding-bottom: clamp(1rem, 2vw, 1.5rem);
-	
 }
 
-.social-media > *{
+.social-media > * {
 	margin-inline: 5px;
 }
 
- /* Style all font social media icons */
- .fa {
+/* Style all font social media icons */
+.fa {
 	padding: 20px;
 	font-size: 30px;
 	width: 50px;
 	text-align: center;
 	text-decoration: none;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-	opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-	background: #3B5998;
-	color: white;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
-	background: #55ACEE;
-	color: white;
-  } 
+}
 
-  /* Instagram */
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+	background: #55acee;
+	color: white;
+}
+
+/* Instagram */
 .fa-instagram {
 	background: #125688;
 	color: white;
-  }
+}
 
-  /* Twitter */
-  .fa-twitter {
-	background: #55ACEE;
+/* Twitter */
+.fa-twitter {
+	background: #55acee;
 	color: white;
-  }
+}
 
 @media (max-width: 629px) {
 	#multi-pics > * {
 		text-align: center;
 	}
 
-	
 	#bday-girl-img {
 		transform: translate(0) rotate(-15deg);
 	}
@@ -267,7 +260,6 @@ footer > *{
 	#biking-img {
 		transform: translate(0) rotate(-10deg);
 	}
-
 }
 
 @media (min-width: 630px) and (max-width: 940px) {
@@ -282,20 +274,18 @@ footer > *{
 		transform: translate(40%) rotate(-10deg);
 	}
 
-	#graduation-img .img-attr{
+	#graduation-img .img-attr {
 		left: 7.5rem;
 	}
 }
 
-@media (prefers-color-scheme: dark){
-	span.contact-link a{
-		color:#fff;
+@media (prefers-color-scheme: dark) {
+	span.contact-link a {
+		color: #fff;
 	}
-	.secondary-content-wrapper,
-	#services{
+
+	.secondary-content-wrapper *,
+	#services * {
 		color: #000;
-		
 	}
 }
-
-
