@@ -288,6 +288,9 @@ footer > *{
 }
 
 @media (prefers-color-scheme: dark){
+	span.contact-link a{
+		color:#fff;
+	}
 	.secondary-content-wrapper,
 	#services{
 		color: #000;
